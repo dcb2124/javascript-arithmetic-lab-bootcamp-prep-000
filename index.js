@@ -3,7 +3,7 @@ function add(a, b){
 }
 
 function subtract(a, b){
-  return (parseFloat(b) - parseFloat(a))
+  return (parseFloat(a) - parseFloat(b))
 }
 
 function multiply(a, b){
@@ -11,7 +11,7 @@ function multiply(a, b){
 }
 
 function divide(a, b){
-  return (parseFloat(a) - parseFloat(b))
+  return (parseFloat(a) / parseFloat(b))
 }
 
 function inc(n){
